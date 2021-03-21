@@ -16,8 +16,9 @@ class Avtosalon:
         self._list_car.append(audi_A6)
         self._list_car.append(audi_A8)
 
-    def d(self):
-        pass
+    def circul_car(self):
+        for car in self._list_car:
+            print(car)
 
     @property
     def list_car(self):
@@ -34,13 +35,5 @@ class Avtosalon:
             print(car._price)
 """
 
-def use_avto():
-    salon = Avtosalon()
-    #salon.print_car()
-    print(salon)
-
-
-if __name__ == "__mane__":
-    use_avto()
 
 
